@@ -40,12 +40,17 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/PersonnelLayout">
-                  Messages
+                  Web Messages
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/PersonnelLayout">
-                  FeedBack
+                <Link className="nav-link" to="/chat">
+                  Chat
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/upload">
+                  Upload
                 </Link>
               </li>
               

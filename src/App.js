@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import ResetPassword from "./Components/auth/ResetPassword";
 import MainLayout from "./Components/Layouts/MainLayout";
-import TasksLayout from "./Components/Tasks/TasksLayout";
+import Upload from "./Components/Tasks/Upload";
+import TasksLayout from './Components/Tasks/TasksLayout'
 import PersonnelLayout from "./Components/Personnel/PersonnelLayout";
 import LogOut from "./Components/auth/LogOut";
 
@@ -23,7 +24,8 @@ function App() {
         <Route exact path="/resetPassword" component={ResetPassword} />
         <Route exact path="/mainLayout" component={MainLayout} />
         <Route exact path="/TasksLayout" component={TasksLayout}/>
-        <Route exact path="/PersonnelLayout" component={PersonnelLayout}/>
+        <Route exact path="/chat" component={PersonnelLayout}/>
+        <Route exact path="/upload" component={Upload}/>
         <Route exact path= "/logout" component={LogOut}/>
         
       </Switch>
