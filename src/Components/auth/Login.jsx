@@ -34,7 +34,7 @@ submitLogin = async (e) => {
     .auth()
     .signInWithEmailAndPassword(this.state.email, this.state.password)
     .then(() => {
-      this.props.history.push('/PersonnelLayout');
+      this.props.history.push('/chat');
     }, err => {
       this.setState({ serverError: true });
       console.log('Error logging in: ', err);
