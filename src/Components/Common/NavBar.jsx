@@ -29,8 +29,8 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Projects
+                <a className="nav-link" to="/TasksLayout">
+                  website
                 </a>
               </li>
               <li className="nav-item">
