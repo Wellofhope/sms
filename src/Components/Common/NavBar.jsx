@@ -30,7 +30,7 @@ const NavBar = () => {
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
               <li className="nav-item">
                 <a className="nav-link" to="/TasksLayout">
-                  website
+                <a target="_blank" className="nav-link" href="https://wellofhopeintern.org/">website</a>
                 </a>
               </li>
               <li className="nav-item">
@@ -49,9 +49,10 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/upload">
+                {/* <Link className="nav-link" to="/upload">
                   Upload
-                </Link>
+                </Link> */}
+                <a target="_blank" className="nav-link" href="https://uploadyzzzysfhsdf.netlify.app/">upload</a>
               </li>
               
               {/* <li className="nav-item dropdown">
